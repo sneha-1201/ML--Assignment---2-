@@ -5,7 +5,7 @@ import streamlit as st
 from sklearn.metrics import accuracy_score, roc_auc_score, precision_score, recall_score, f1_score, matthews_corrcoef, confusion_matrix, classification_report
 
 ROOT = Path(__file__).resolve().parent
-MODEL_DIR = ROOT / "models"
+MODEL_DIR = ROOT 
 FILES = {
     "Logistic Regression": "logistic_regression.joblib",
     "Decision Tree": "decision_tree.joblib",
